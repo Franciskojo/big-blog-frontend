@@ -10,6 +10,7 @@ export const useApi = () => {
     setLoading(true);
     setError(null);
 
+    
     try {
       const url = `${API_BASE_URL}${endpoint}`;
       const config = {
